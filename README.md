@@ -1,58 +1,70 @@
-# Music-Management-
-Music Management App
+# Getting Started with Create React App
 
-Overview
-The Music Manager App is a simple, one-page application built with React, designed to help music professionals manage their files, contracts, and business relationships. The app allows users to upload and download files, connect with other registered business partners, send invitations, and manage various aspects of their music projects.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Features
-User Authentication: Users can register and log in to access the app.
-Dashboard: Central hub for managing files, contracts, and connecting with partners.
-Menu Bar: Easy navigation to various sections, including Master Files, Meta Data, Contracts, Stems, and Deals.
-Invitations: Send invitations to other business partners.
-Banner: Display a customizable banner with a message.
-Logout Button: Securely log out of the application.
-Getting Started
-Prerequisites
-Make sure you have the following installed on your machine:
+## Available Scripts
 
-Node.js (v12 or higher)
-npm (comes with Node.js)
+In the project directory, you can run:
 
-Project Structure
-The project is organized as follows:
+### `npm start`
 
-src/
-│
-├── assets/
-│   └── logo.png               # Placeholder for the app's logo
-│
-├── components/
-│   ├── Banner.js              # Displays the banner with a custom message
-│   ├── Login.js               # User login form
-│   ├── Register.js            # User registration form
-│   ├── Home.js                # Home page with a welcome message
-│   ├── MenuBar.js             # Navigation menu bar
-│   └── Dashboard.js           # Main dashboard for managing files and connections
-│
-├── App.js                     # Main app component containing routes and layout
-└── index.js                   # Entry point of the application
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-vailable Routes
+### `npm test`
 
-/: Home page with a welcome message.
-/login: Login page for user authentication.
-/register: Registration page for new users.
-/dashboard: Main dashboard with access to all management tools.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Customization
+### `npm run build`
 
-Banner: Update the text in Banner.js to customize the banner message.
-Logo: Replace logo.png in the assets folder with your own logo.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Future Improvements
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Integrate file upload/download functionality.
-Add real-time video chat using WebRTC or Twilio.
-Implement backend authentication and data storage with Firebase or another service.
-Expand the dashboard to include more detailed project management tools.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

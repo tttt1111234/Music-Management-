@@ -1,0 +1,121 @@
+/* src/components/Dashboard.css */
+.dashboard {
+    display: flex;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar {
+    background-color: #2a5298;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar h3 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.sidebar ul li:hover {
+    text-decoration: underline;
+}
+
+.invite-button {
+    background-color: #2260a2;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.invite-button:hover {
+    background-color: #0056b3;
+}
+
+.content {
+    flex-grow: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.user-controls {
+    display: flex;
+    align-items: center;
+}
+
+.user-controls span {
+    margin-right: 20px;
+}
+
+.logout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #c9302c;
+}
+
+.widgets {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.widget {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.widget h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.widget p {
+    margin-bottom: 0;
+    color: #555;
+}
